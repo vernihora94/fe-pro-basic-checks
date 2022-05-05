@@ -10,7 +10,7 @@ export const capitalizeString = (string) => string.split(' ').map(item => `${ite
  * @param {string} string
  * @returns {string}
  */
-export const fenceString (string) {
+export const fenceString = function fenceString (string) {
     let arr = [];
     for(let i = 0; i < string.length; i++){
         if(string[i] === ' '){
