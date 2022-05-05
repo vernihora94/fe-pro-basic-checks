@@ -88,7 +88,7 @@ export const consoleLoggerWordsForOf = (string) => {
  */
 export const consoleLoggerWordsFor = (string) => {
    for (let i = 0; i < string.length; i++) {
-      console.log(text[i]);
+      console.log(string[i]);
    }
 };
 
@@ -99,7 +99,7 @@ export const consoleLoggerWordsFor = (string) => {
 export const consoleLoggerWordsWhile = (string) => {
    let i = 0;
    while (i < string.length) {
-      console.log(text[i]);
+      console.log(string[i]);
       i++;
    }
 };
