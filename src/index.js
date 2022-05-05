@@ -16,11 +16,11 @@ export const fenceString (string) {
         if(string[i] === ' '){
             arr.push(string[i]);
         }
-        else if(i % 2 === 0){
-            arr.push(string[i].toLowerCase());
-        }
         else if(i % 2 !== 0){
             arr.push(string[i].toUpperCase());
+        }
+        else if(i % 2 === 0){
+            arr.push(string[i].toLowerCase());
         }
     }
     return arr.join(''); 
